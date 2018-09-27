@@ -1,3 +1,5 @@
+"""Compare song titles"""
+
 list_of_songs = []
 
 
