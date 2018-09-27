@@ -1,6 +1,3 @@
-import os
-import sys
-
 list_of_songs = []
 list_of_songs_file = open('listOfSongs.txt', 'r')
 
