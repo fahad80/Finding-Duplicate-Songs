@@ -1,10 +1,8 @@
 list_of_songs = []
-list_of_songs_file = open('listOfSongs.txt', 'r')
-
-allSong_str = list_of_songs.read().lower()
 
 
-allSong_list = allSong_str.split('\n\n')
+with open('listOfSongs.txt', 'r') as song_file:
+    allSong_list = song_file.read().lower().split('\n\n')
 
 for song in allSong_list:
     split_words = song.split('.')
